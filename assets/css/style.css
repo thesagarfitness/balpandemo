@@ -1,0 +1,182 @@
+.navbar-custom {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+body{
+    background-color: #54becd;
+}
+
+span{
+    color:#000;
+}
+
+.hero-image {
+    padding: 50px 20px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 10px;
+    height: 65vh;
+}
+
+
+.hero-text .tagline {
+    font-size: 4rem;
+    font-weight: bold;
+    color: #fff;
+    /* Primary Bootstrap color */
+}
+
+.hero-text .description {
+    font-size: 1.2rem;
+    margin-top: 10px;
+    color: #000;
+    font-weight: bold;
+    /* Secondary Bootstrap color */
+}
+
+/* Mobile optimization */
+@media (max-width: 576px) {
+    .hero-text .tagline .central-text{
+        font-size: 1.5rem;
+    }
+
+    .hero-text .description {
+        font-size: 1rem;
+    }
+}
+
+.tagline {
+    font-size: 2rem;
+    /* Adjust font size */
+    font-weight: bold;
+    color: #f38824;
+    /* Color for the tagline */
+}
+
+.description {
+    font-size: 1.2rem;
+    /* Adjust font size */
+    color: #DDA0DD;
+    /* Color for the description */
+}
+
+.btn-primary {
+    border: solid 1px #d484d4;
+    border-radius: 25px;
+    background-color: #d484d4;
+    font-weight: bold;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+}
+
+.central-text {
+    text-align: center;
+
+}
+
+.other-text {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+.bullet {
+    display: inline-block;
+    width: 11px;
+    height: 11px;
+    background-color:purple;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+h1 {
+    color: #333;
+    font-size: 2.5rem;
+}
+
+.program-card {
+    background-color: #ffffff;
+    border: none;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    transition: transform 0.3s ease;
+}
+
+.program-card:hover {
+    transform: translateY(-5px);
+}
+
+.program-card .card-title {
+    color: #fff;
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+
+.program-card .card-text {
+    color: #666;
+    font-size: 0.9rem;
+}
+
+.highlight-card {
+    background-color: #ffcc00;
+    /* Yellow background for highlight */
+}
+
+.navbar-background{
+    background-color: #160042;
+}
+
+
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.active{
+    color: #fff;
+    font-weight: bold;
+}
+
+.nav-link{
+    color: #fff;
+    font-weight: bold;
+}
+
+li{
+    font-weight: bold;
+}
+
+.navbar-toggler{
+    background: #fff;
+}
+
+.card{
+    background-color: #000;
+}
+
+@media only screen and (max-width: 767px) {
+    #header {
+        padding: 20px;
+    }
+    .tagline {
+      font-size: 2rem !important;
+    }
+  }
+  
+
+
+  .fade-up {
+    opacity: 0;
+    transform: translateY(20px); /* Initially moves it down by 20px */
+    transition: opacity 1s ease-out, transform 1s ease-out; /* Smooth transition */
+}
+
+.fade-up.show {
+    opacity: 1;
+    transform: translateY(0); /* Moves it back to its original position */
+}
