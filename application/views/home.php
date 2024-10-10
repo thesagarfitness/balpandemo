@@ -1,4 +1,4 @@
-<div class="p-2 container" >
+<div class="p-2 container">
     <div class="row d-flex justify-content-center align-items-center text-center" style="height: 80vh;">
         <div id="left-col" data-aos="fade-right" class="col-md-6 p-2 d-flex flex-column justify-content-center align-items-center">
             <div class="hero-text">
@@ -6,7 +6,7 @@
                 <div class="description">A platform that creates the roots and branches of a child’s abilities <span style="color : #fff">(age 0-6 years)</span> and unlocks the power of the right brain.</div>
             </div>
         </div>
-        <div class="col-md-6 d-flex justify-content-center align-items-center">
+        <div data-aos="fade-left" class="col-md-6 d-flex justify-content-center align-items-center">
             <div style="width: 400px; height: 400px; border-radius: 50%; overflow: hidden;">
                 <video width="100%" height="auto" controls autoplay muted>
                     <source src="<?php echo base_url('assets/media/home.mp4') ?>" type="video/mp4">
@@ -29,14 +29,14 @@
     </marquee>
 </div>
 
-<div class="container p-3">
+<div class="container-fluid p-5 " data-aos="flip-left" data-aos-duration="1000" style="height:80vh;" >
     <div class="row justify-content-center text-center">
-        <h3>Would you like to give your child a struggling-free start to his life journey ?</h3>
+        <h1 class="">Would you like to give your child a struggling-free start to his life journey ?</h1>
 
-        <div class="col-md-5 d-flex justify-content-center">
+        <div class="col-md-4 d-flex justify-content-center">
             <img src="<?php echo base_url('assets/logo.png') ?>" alt="Child Development" class="img-fluid" style="max-width:50%">
         </div>
-        <div class="col-md-7 text-section">
+        <div class="col-md-8 text-section">
             <ul class="other-text">
                 <li class="text_style">Your baby has high screen time and low learning capabilities? (Parents today are too busy, and the child engages with screens too much, so the child is lacking learning capabilities.)</li>
                 <li class="text_style">Your baby is full of potential but not a perfect direction? (The child is born to be a genius, but parents have no right direction to nurture those skills.)</li>
@@ -65,7 +65,7 @@
                 <!-- Features List -->
                 <div class="row mt-4">
                     <div class="col-12">
-                        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3">
+                        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-4 g-3 " data-aos-duration="500" data-aos="zoom-in-left">
                             <div class="col">
                                 <div class="text-center">
                                     <i class="fas fa-brain fa-2x mb-2" style="color:yellow;"></i>
@@ -195,5 +195,5 @@
 </div>
 
 <script>
-  AOS.init();
+    AOS.init();
 </script>
