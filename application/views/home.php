@@ -1,6 +1,6 @@
-<div class="p-2 container">
+<div class="p-2 container" >
     <div class="row d-flex justify-content-center align-items-center text-center" style="height: 80vh;">
-        <div id="left-col" class="col-md-6 p-2 d-flex flex-column justify-content-center align-items-center fade-up">
+        <div id="left-col" data-aos="fade-right" class="col-md-6 p-2 d-flex flex-column justify-content-center align-items-center">
             <div class="hero-text">
                 <div class="tagline"><span>Balpan:</span> Where early minds thrive</div>
                 <div class="description">A platform that creates the roots and branches of a child’s abilities <span style="color : #fff">(age 0-6 years)</span> and unlocks the power of the right brain.</div>
@@ -195,11 +195,5 @@
 </div>
 
 <script>
-    $(document).ready(function() {
-        $("#left-col").addClass("fade-up");
-
-        setTimeout(function() {
-            $("#left-col").addClass("show");
-        }, 500); 
-    });
+  AOS.init();
 </script>

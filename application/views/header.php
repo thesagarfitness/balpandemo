@@ -9,25 +9,22 @@
     <link rel="stylesheet" href="<?php echo base_url('assets/css/style.css'); ?>">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="icon" href="<?php echo base_url('assets/logo.png'); ?>" type="image/png">
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 
 <body>
 <div class="container mt-2 fade-in" >
     <nav class="navbar navbar-expand-lg navbar-light navbar-background col-md-12 mx-auto navbar-custom" style="border-radius: 50px;">
         <div class="container-fluid" id="header">
-            <!-- Logo -->
-             
+            
             <a class="navbar-brand" href="#">
             <img src="<?php echo base_url('assets/logo.png'); ?>" height="70" alt="Logo">
             </a>
 
-            <!-- Toggler for mobile -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <!-- Centered Navigation Links -->
             <div class="collapse navbar-collapse justify-content-center " id="navbarNav">
                 <ul class="navbar-nav text-white">
                     <li class="nav-item ">
@@ -51,7 +48,6 @@
                 </ul>
             </div>
 
-            <!-- Book a Visit Button -->
             <div class="d-flex">
                 <a href="#" class="btn btn-primary">Book a Visit</a>
             </div>
